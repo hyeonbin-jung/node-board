@@ -28,6 +28,8 @@ a { text-decoration: none; color: #212121; }
 .btn1, .btn2 { background-color: black; color: #ffffff; padding: 5px 15px; cursor: pointer; border-radius: 3px; border: 0; }
 .btn2 { background-color: black; color: #ffffff; }
 
+.login_btn { margin-bottom: 20px;}
+.sns_btns  .sns_btn { height: 30px; }
 
 /** 페이징 */
 .paginator { text-align: center; padding: 20px 0; }
@@ -51,9 +53,15 @@ ul.main_menu a {
 	font-weight: bold;
 	
 }
+ul.main_menu li:nth-child(3), ul.main_menu li:nth-child(4) {
+	float: right;
+	
+}
+	
+ul.main_menu:after { clear: right; content: ''; display: block; }
+
 .links { margin-bottom: 20px; padding: 20px; }
-.login_btn { margin-bottom: 20px;}
-.sns_btns  .sns_btn { height: 30px; }
+
 /** outline/header/_main.html */
 header { padding: 10px; }
 header .logo_search .logo { float: left; }
@@ -62,7 +70,10 @@ header .logo_search:after { clear: both; content: ''; display: block; }
 header .logo_search .search input[type='text'] { width: calc(100% - 60px); float: left; border: 2px solid #000000; border-radius: 0; }
 header .logo_search .search_btn { width: 60px; display: block; float: right; height: 40px; background-color: #000000; color: #ffffff; border: 0; cursor: pointer; } 
 header .logo_search .search:after { clear: both; content: ''; display: block; }
-header .logo .board_logo { margin-left: 20px; width: 40px; }
+header .logo .board_logo { margin-left: 20px; width: 40px; margin-top: 3px; }
 
 
-footer {background-color: #d5d5d5; height: 100px;}
+footer { background-color: #d5d5d5; height: 100px; position: relative;}
+footer .git .git_icon { width: 40px; position: absolute; top: 30px; left: 20px;}
+footer .git h1 { position: absolute; top: 20px; left: 70px;}
+

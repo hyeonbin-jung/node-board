@@ -6,5 +6,18 @@
 		<a href='{{ item.url }}'>{{ item.name }}</a>
 	</li>
 {% endfor %}
+{% if isLogin %}
+<li>
+{{ member.memNm }}({{ member.memId }})님 로그인...
+<a href='/member/logout'>로그아웃</a>
+</li>
+{% else %}
+<li class='right'>
+<a href='/member/join'>회원가입</a>
+</li>
+<li class='right'>
+<a href='/member/login'>로그인</a>
+</li>
+{% endif %}
 </ul>
 {% endif %}

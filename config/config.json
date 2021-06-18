@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "reno123",
-    "password": "qlsyd132",
+    "password": "gusqls132",
     "database": "reno123",
     "host": "reno123.cafe24.com",
     "dialect": "mysql"
@@ -15,7 +15,7 @@
   },
   "production": {
     "username": "reno123",
-    "password": "qlsyd132",
+    "password": "gusqls132",
     "database": "reno123",
     "host": "reno123.cafe24.com",
     "dialect": "mysql"

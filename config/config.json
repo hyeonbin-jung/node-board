@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
+    "username": "reno123",
     "password": "qlsyd132",
-    "database": "board",
-    "host": "127.0.0.1",
+    "database": "reno123",
+    "host": "reno123.cafe24.com",
     "dialect": "mysql"
   },
   "test": {
